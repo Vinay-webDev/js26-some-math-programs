@@ -29,7 +29,15 @@ console.log(isPrimeNum(8));
 console.log(isPrimeNum(9));
 console.log(isPrimeNum(77));
 console.log(isPrimeNum(13));
-
-
-
+/////////////////////////
+//3. gdc
+function gcd(a, b) {
+    if (b === 0) {
+        return a;
+    }
+    return gcd(b, a % b);
+}
+console.log(gcd(2,3));
+console.log(gcd(4,66));
+console.log(gcd(33,99));
 
